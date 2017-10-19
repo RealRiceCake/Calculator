@@ -6,3 +6,4 @@ For users:
 - Unary Operation: %, e, +/-, pi, sin, cos, tan, Square Root
 - Binary Operation: +, -, *, /
 - Clear the Values
+![image](https://github.com/RealRiceCake/Calculator/blob/master/Calculator%20Demo%2010.19.2017.gif)
