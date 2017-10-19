@@ -4,5 +4,6 @@ import UIKit
 
 var str = "Hello, playground"
 
-var x = sin(4.0)
+var x = 10 % 3
+print(x)
 

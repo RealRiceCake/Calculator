@@ -27,6 +27,21 @@ class ViewController: UIViewController {
         
     }
     
+    var userHasTypedDot = false
+    
+    @IBAction func touchDot(_ sender: UIButton) {
+        if !userHasTypedDot {
+            if userIsInMiddleTyping {
+                display.text! = display.text! + "."
+            }
+            else {
+                display.text! = "0."
+                userIsInMiddleTyping = true
+            }
+            userHasTypedDot = true
+        }
+    }
+    
     var displayValue: Double {
         get {
             return Double(display.text!)!
@@ -42,6 +57,7 @@ class ViewController: UIViewController {
         if userIsInMiddleTyping {
             brain.setOperand(displayValue)
             userIsInMiddleTyping = false
+            userHasTypedDot = false
         }
         if let mathSymbol = sender.currentTitle {
             brain.performOperation(mathSymbol)
@@ -49,6 +65,14 @@ class ViewController: UIViewController {
         if let result = brain.result {
             displayValue = result
         }
+    }
+    
+    
+    @IBAction func clearDisplay(_ sender: UIButton) {
+        brain.clear()
+        display.text! = "0"
+        userHasTypedDot = false
+        userIsInMiddleTyping = false
     }
     
 }
