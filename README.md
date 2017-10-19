@@ -8,4 +8,5 @@ For Users:
 - Clear the Values
 
 Demo Here:
+
 ![image](https://github.com/RealRiceCake/Calculator/blob/master/Calculator%20Demo%2010.19.2017.gif)
