@@ -11,6 +11,7 @@
 		BBCBB64B1F9709DE0050A2B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBB64A1F9709DE0050A2B7 /* ViewController.swift */; };
 		BBCBB64E1F9709DE0050A2B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCBB64C1F9709DE0050A2B7 /* Main.storyboard */; };
 		BBCBB6501F9709DE0050A2B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCBB64F1F9709DE0050A2B7 /* Assets.xcassets */; };
+		BBCBB65B1F98896D0050A2B7 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBB65A1F98896D0050A2B7 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BBCBB64D1F9709DE0050A2B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBCBB64F1F9709DE0050A2B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCBB6541F9709DE0050A2B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCBB65A1F98896D0050A2B7 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				BBCBB64C1F9709DE0050A2B7 /* Main.storyboard */,
 				BBCBB64F1F9709DE0050A2B7 /* Assets.xcassets */,
 				BBCBB6541F9709DE0050A2B7 /* Info.plist */,
+				BBCBB65A1F98896D0050A2B7 /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCBB65B1F98896D0050A2B7 /* CalculatorBrain.swift in Sources */,
 				BBCBB64B1F9709DE0050A2B7 /* ViewController.swift in Sources */,
 				BBCBB6491F9709DE0050A2B7 /* AppDelegate.swift in Sources */,
 			);
